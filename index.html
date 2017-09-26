@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NCHLT WEB SERVICES</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/css_design.css">
+
+<body>
+<div class="row">
+  <div class="fluid container">
+    <div class="panel panel-default ">
+      <div class="row">
+        <div class="col-sm-12">
+          <label class="lblNameHeader" id="lbl_heading"> NCHLT WEB SERVICES </label>
+        </div>
+      </div>
+     
+      __________________________________________________________________________________________________________________________________________________
+      <div class="row">
+        <div class="col-md-6">
+          <label id="lbl_languages"> Select Languages </label>
+          <br>
+          <div class="id_dd1">
+            <select id="dd1">
+              <option value="DEFAULT" >Choose Languages</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <label id="lbl_Technologies"> Select Technologies </label>
+          <br>
+          <div class="id_dd2">
+            <select id="dd2" disabled="true">
+              <option value="DEFAULT">Choose Technologies</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <div class="panel panel-default" id="Input__Panel">
+        <div class="panel-heading" id="Input_Panel">Input</div>
+        <div class="panel-body" id="InputPanel">
+          <textarea class  placeholder="Input Text" id="InputText"></textarea>
+          <br>
+          <div class="col-sm-1">
+            <button type="button"  id="ButtonProcess" name="btn_Process" class="btn btn-primary" disabled=true >Process</button>
+          </div>
+          <div class="col-sm-4">
+            <button type="button"  id="ButtonUpload"  class="btn btn-primary btn-md" "glyphicon glyphicon-upload" disabled=true > Upload Text</button>
+          </div>
+        </div>
+      </div>
+      <p></p>
+      <div class="panel panel-default">
+        <div class="panel-heading" id="OutputPanel">Output</div>
+        <div class="panel-body">
+          <textarea class  placeholder="Output Text" id="OutputText"></textarea>
+          <br>
+          <div class="col-sm-1">
+            <button type="button" id="ButtonDownload" class="btn btn-primary">Download</button>
+          </div>
+          <div class="col-sm-4">
+            <button type="button" id="ButtonSave" class="btn btn-primary btn-md"> <span class="glyphicon glyphicon-upload"></span>Save</button>
+          </div>
+        </div>
+      </div>
+      <!--  Footer  -->
+      <footer class="footer" id="footer" > 
+        <!--  Sponsor & Logos -->
+        <div class="container-fluid panel panel-primary panel-title">
+          <div class="row">
+            <div class="col-sm-4">
+              <label id="lbl_footer_sponsor">Proudly sponsored by:</label>
+              <p id="footer_sponsor"></p>
+              <a href="http://www.dac.gov.za" target="_blank"> <img src="images/DAC.png" class="img-responsive" alt="Department of Arts and Culture logo" style="float:center"> </a> </div>
+            <div class="col-sm-4"> </div>
+            <div class="col-sm-4">
+              <label id="lbl_footer_developer">Developed by:</label>
+              <p id="footer_dev"></p>
+              <a href="http://www.nwu.ac.za/ctext" target="_blank"> <img src="images/CTEXT.png" class="img-responsive" alt="Centre for Text Technology logo" style="float:center"> </a> </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+  </div>
+</div>
+<script src="js/jquery-1.11.3.min.js"></script> 
+<script src="js/bootstrap.min.js"></script> 
+<script src="js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+textarea{
+	width: 1100px;
+	height:200px;
+	margin:auto;
+	background-color: antiquewhite;
+}
+label{
+	color: firebrick;
+	
+}
+panel panel-default {
+	color: greenyellow;
+}
+option{
+	color: firebrick;
+}
+select{
+	color: firebrick;
+}
+
+
+
